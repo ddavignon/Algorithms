@@ -1,8 +1,8 @@
 """ 
 bubble sort implemenation in python
 
-this program will generate the specified number of elements with random numbers within the range of elements
-it will print the generated list and then print the sorted list after bubble sort
+This program will generate the specified number of elements with random numbers within the range of elements.
+It will print the generated list and then print the sorted list after bubble sort.
 
 by Dustin D'Avignon
 """
@@ -25,5 +25,5 @@ for i in range (0,ELEMENTS):
 		if numbers_to_sort[i] < numbers_to_sort[j]:
 			numbers_to_sort[i], numbers_to_sort[j] = numbers_to_sort[j], numbers_to_sort[i]
 
-# printed sorted numbers
+# print sorted numbers
 print "numbers AFTER sorting:\n", numbers_to_sort, "\n"
